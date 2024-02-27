@@ -1,0 +1,9 @@
+name: luminance
+version: 0.1.0
+
+authors:
+  - Anton Fredriksson <79942428+Phoeenix05@users.noreply.github.com>
+
+crystal: '>= 1.11.2'
+
+license: MIT
