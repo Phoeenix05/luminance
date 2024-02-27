@@ -1,4 +1,6 @@
 private module Utils
+  extend self
+
   def to_base10(c : Char) : Int
     if c.is_a Int
       return c.as Int
