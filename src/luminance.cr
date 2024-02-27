@@ -34,6 +34,8 @@ private module Utils
 end
 
 module Luminance
+  extend self
+
   VERSION = "0.1.0"
 
   def luminance(r : Float, g : Float, b : Float) : Float
