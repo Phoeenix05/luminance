@@ -10,7 +10,7 @@ private module Utils
     return t[c]
   end
 
-  def hex_to_rgb(hex : String) : {Int, Int, Int}
+  def hex_to_rgb(hex : String) : {Int32, Int32, Int32}
     r, g, b = hex
       .each_char
       .each_slice(2)
